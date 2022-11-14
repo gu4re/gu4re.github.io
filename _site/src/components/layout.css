@@ -33,7 +33,7 @@ html {
   font-size: var(--font-md);
   line-height: var(--line-height-normal);
   overflow-y: scroll;
-  background: #555;
+  background-image: url("../images/Wallpaper.jpg");
 }
 
 body {
