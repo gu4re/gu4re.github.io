@@ -34,6 +34,7 @@ html {
   line-height: var(--line-height-normal);
   overflow-y: scroll;
   background-image: url("../images/Wallpaper.jpg");
+  background-size: auto;
 }
 
 body {
@@ -46,6 +47,7 @@ body {
   margin: 0;
   word-wrap: break-word;
   background-image: url("../images/Wallpaper.jpg");
+  background-size: auto;
 }
 
 a {
