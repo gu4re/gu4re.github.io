@@ -46,10 +46,9 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
+
   background-image: url("../images/background.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 95vh;
+  background-size: cover;
 
 }
 
