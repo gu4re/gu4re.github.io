@@ -35,6 +35,7 @@ html {
   overflow-y: scroll;
   background-image: url("../images/background.png");
   background-size: contain;
+  height: 90vh;
 
 }
 
@@ -47,7 +48,7 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
-  height: 95vh;
+
 
 }
 
