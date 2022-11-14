@@ -46,7 +46,7 @@ body {
   margin: 0;
   word-wrap: break-word;
   background-image: url("../images/background.png");
-  background-size: cover;
+  background-size: 100%;
 }
 
 a {
