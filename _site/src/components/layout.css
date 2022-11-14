@@ -33,9 +33,6 @@ html {
   font-size: var(--font-md);
   line-height: var(--line-height-normal);
   overflow-y: scroll;
-  background-image: url("../images/background.png");
-  background-size: contain;
-  height: 90vh;
 
 }
 
@@ -48,6 +45,11 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/background.png");
+  background-size: contain;
+  overflow: hidden;
 
 
 }
