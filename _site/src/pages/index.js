@@ -33,11 +33,11 @@ const IndexPage = () => (
 
 // Please press <b>Enter</b> to continue...
 
-document.addEventListener("keypress", function (event) {
+/*document.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     window.location.href = "https://gu4re.github.io/page-2/"
   }
-})
+})*/
 
 
 
