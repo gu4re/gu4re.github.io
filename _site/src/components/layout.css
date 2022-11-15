@@ -50,6 +50,8 @@ body {
   background-size: cover;
 
   overflow-y: hidden;
+  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
