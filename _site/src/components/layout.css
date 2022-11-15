@@ -288,8 +288,8 @@ pre tt:after {
 
   outline: dashed 1px rgb(73, 73, 73);
   text-align: center;
-  background-color: rgb(44, 44, 44);
   border-radius: 25px;
+  border-style: dotted;
 }
 
 @keyframes typing {

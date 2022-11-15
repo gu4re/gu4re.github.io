@@ -23,8 +23,7 @@ const IndexPage = () => (
 
     <div class="wrapper">
       <div class="typing-demo">
-        <h1>Welcome to my <b>Repo!</b></h1>
-        <p>Please press <b>Enter</b> to continue...</p>
+        <p>Welcome to my <b>Repo!</b></p>
       </div>
     </div>
 
@@ -32,9 +31,15 @@ const IndexPage = () => (
 
 )
 
-const move = () => (
-  window.location.href = "http://gu4re.github.io/"
-)
+// Please press <b>Enter</b> to continue...
+
+document.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    window.location.href = "https://gu4re.github.io/page-2/"
+  }
+})
+
+
 
 // si se presiona intro entonces
 // window.location.href = "http://example.com/new_url";
