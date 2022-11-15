@@ -34,8 +34,8 @@ html {
   line-height: var(--line-height-normal);
   overflow-y: scroll;
   background-image: url("../images/background.png");
-  background-size: contain;
-  width: 100vw;
+  background-size: cover;
+
 
 }
 
