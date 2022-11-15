@@ -49,6 +49,7 @@ body {
   background-image: url("../images/background.png");
   background-size: cover;
   padding-bottom: 50%;
+
   overflow-y: hidden;
   overflow: hidden;
   overflow-x: hidden;
