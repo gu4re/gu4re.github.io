@@ -83,6 +83,9 @@ const IndexPage = () => (
 
 )
 
+// si se presiona intro entonces
+// window.location.href = "http://example.com/new_url";
+
 export const Head = () => <Seo title="Home" />
 
 export default IndexPage
