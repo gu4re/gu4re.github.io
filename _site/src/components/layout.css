@@ -270,34 +270,74 @@ pre tt:after {
   content: none;
 }
 
-.wrapper {
-  height: 100vh;
-  /*This part is important for centering*/
-  display: grid;
-  place-items: center;
+typingEffect7,
+.te7-item {
+  display: block;
+  font-weight: 400;
 }
 
-.typing-effect {
-  width: 40ch;
-  animation: typing 2s steps(22),
-    blink .5s step-end infinite alternate;
-  white-space: nowrap;
+/*Typing animation*/
+.typingEffect7,
+.te7-item {
+  height: 80px;
+}
+
+.typingEffect7 {
+  font-family: "Fira Mono", monospace;
   overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
-  background-color: transparent;
-
+  background-color: #d9d2d1;
+  color: #343aa1;
+  font-size: 28px;
+  margin: 0;
 }
 
-@keyframes typing {
-  from {
-    width: 0
+.te7-item {
+  position: relative;
+  font-size: 1.5em;
+  animation: animatetotop 6s steps(3) infinite;
+}
+
+.te7-item_inner,
+.te7-item-overlay {
+  display: inline-block;
+}
+
+.te7-item_inner {
+  position: relative;
+  line-height: 1;
+}
+
+.te7-item_inner:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: 0;
+  bottom: -2px;
+  left: 0;
+  border-left: 1px solid #343aa1;
+  background-color: #d9d2d1;
+  animation: animatetoright 1s steps(10) infinite alternate;
+}
+
+@keyframes animatetoright {
+  0% {
+    left: 0;
+    margin-right: auto;
+  }
+
+  100% {
+    left: 100%;
+    margin-left: 0.6em;
+    margin-right: -0.6em;
   }
 }
 
-@keyframes blink {
-  50% {
-    border-color: transparent
+@keyframes animatetotop {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -240px;
   }
 }
