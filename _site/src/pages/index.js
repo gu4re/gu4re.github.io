@@ -72,12 +72,20 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
 
-    <p class="typingEffect7">
-      <span class="te7-item"><span class="te7-item_inner">Welcome, <b>user!</b></span></span>
-      <span class="te7-item"><span class="te7-item_inner">Press <b>Enter</b> to continue...</span></span>
-    </p>
+    <div class="wrapper">
+      <div class="typing-demo">
+        Welcome to my <b>Repo!</b>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="typing-demo">
+        Please press <b>Enter</b> to continue...
+      </div>
+    </div>
 
   </Layout>
+
 )
 
 export const Head = () => <Seo title="Home" />
