@@ -47,7 +47,7 @@ body {
   word-wrap: break-word;
 
   background-image: url("../images/background.png");
-  background-size: contain;
+  background-size: cover;
 
   overflow-y: hidden;
   overflow: hidden;
