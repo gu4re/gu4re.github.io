@@ -74,7 +74,8 @@ const IndexPage = () => (
     <div class="wrapper">
 
       <div class="typing-effect">
-        Welcome to my <b>Repo!</b>
+        <p><b>Welcome to my Repo!</b></p>
+        <p><b>Please press enter to continue...</b></p>
 
       </div>
     </div>
