@@ -10,7 +10,7 @@
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
-    title: `ER4UG.reverse`,
+    title: `reverse`,
     description: `IO SITE | gu4re`,
     author: `@gu4re`,
     siteUrl: `https://github.com/gu4re`,
@@ -30,12 +30,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gu4re_start_page`,
-        short_name: `home`,
+        short_name: `Home | gu4re`,
         start_url: `/`,
         background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
