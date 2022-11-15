@@ -72,8 +72,10 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div class="wrapper">
+
       <div class="typing-effect">
-        <code>Welcome to my <b>Repo!</b></code>
+        Welcome to my <b>Repo!</b>
+
       </div>
     </div>
   </Layout>
