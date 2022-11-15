@@ -20,7 +20,12 @@ const Header = ({ siteTitle }) => (
     >
       {siteTitle}
     </Link>
-
+    <img
+      alt="Gu4re Logo"
+      height={20}
+      style={{ margin: 0 }}
+      src="../images/icon.png"
+    />
   </header>
 )
 
