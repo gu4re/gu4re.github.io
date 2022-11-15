@@ -277,7 +277,7 @@ pre tt:after {
   place-items: center;
 }
 
-.typing-demo {
+.typing-effect {
   width: 22ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
