@@ -10,7 +10,7 @@
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
-    title: `gu4re.github.io`,
+    title: ``,
     description: `IO SITE | gu4re`,
     author: `@gu4re`,
     siteUrl: `https://github.com/gu4re`,
