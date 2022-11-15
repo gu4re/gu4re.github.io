@@ -10,7 +10,7 @@
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
-    title: `ER4UG.reverse`.bold,
+    title: `ER4UG.reverse`,
     description: `IO SITE | gu4re`,
     author: `@gu4re`,
     siteUrl: `https://github.com/gu4re`,
