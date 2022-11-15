@@ -32,6 +32,7 @@ const IndexPage = () => (
 )
 
 // Please press <b>Enter</b> to continue...
+// LO MEJOR ES PONER LA MANZANA COMO FOTO CUSTOM, LUEGO UN TREE Y LISTO Y QUE PINCHE
 
 /*document.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
