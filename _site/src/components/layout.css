@@ -278,7 +278,7 @@ pre tt:after {
 }
 
 .typing-demo {
-  width: 40ch;
+  width: 22ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -289,7 +289,8 @@ pre tt:after {
   outline: dashed 1px rgb(73, 73, 73);
   text-align: center;
   border-radius: 25px;
-  border-style: dotted;
+  border-style: dotted dashed solid double;
+  vertical-align: text-top;
 }
 
 @keyframes typing {
