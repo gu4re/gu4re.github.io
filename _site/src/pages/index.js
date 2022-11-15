@@ -74,13 +74,8 @@ const IndexPage = () => (
 
     <div class="wrapper">
       <div class="typing-demo">
-        Welcome to my <b>Repo!</b>
-      </div>
-    </div>
-
-    <div class="wrapper">
-      <div class="typing-demo">
-        Please press <b>Enter</b> to continue...
+        <h1>Welcome to my <b>Repo!</b></h1>
+        <p>Please press <b>Enter</b> to continue...</p>
       </div>
     </div>
 

@@ -285,6 +285,8 @@ pre tt:after {
   border-right: 3px solid;
   font-family: monospace;
   font-size: 2em;
+
+  text-align: center;
 }
 
 @keyframes typing {
