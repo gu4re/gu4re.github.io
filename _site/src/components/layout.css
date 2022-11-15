@@ -286,10 +286,10 @@ pre tt:after {
   font-family: monospace;
   font-size: 2em;
 
-  outline: dashed 1px black;
+  outline: dashed 1px rgb(73, 73, 73);
   text-align: center;
   background-color: rgb(44, 44, 44);
-  border-radius: var(--border-radius);
+  border-radius: 25px;
 }
 
 @keyframes typing {
