@@ -57,7 +57,7 @@ body {
   max-height: 100vh;
 }
 
-#btn {
+.btn {
   text-align: left;
   font-family: "Hack Nerd Font";
 
