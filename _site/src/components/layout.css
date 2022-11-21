@@ -57,6 +57,12 @@ body {
   max-height: 100vh;
 }
 
+#btn {
+  text-align: left;
+  font-family: "Hack Nerd Font";
+
+}
+
 a {
   background-color: transparent;
   color: var(--color-primary);
@@ -219,10 +225,6 @@ p {
   max-width: 680px;
 }
 
-code {
-  font-size: 0.875rem;
-}
-
 kbd {
   font-size: 0.875rem;
 }
@@ -250,6 +252,7 @@ code {
   padding-bottom: 0.25em;
   padding-top: 0.25em;
   word-break: normal;
+  font-size: 0.875rem;
 }
 
 pre code {
