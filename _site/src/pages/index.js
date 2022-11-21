@@ -21,7 +21,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <div class="btn"><Link to="/404.js">_____</Link></div>
+    <div class="btn"><Link to="/404.js">______</Link></div>
 
   </Layout>
 
