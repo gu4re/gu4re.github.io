@@ -13,8 +13,6 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
 
-  const { title, children2, location } = this.props
-
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {

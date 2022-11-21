@@ -20,13 +20,8 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <div class="btn" onClick="javascript:clickinner(this);">about</div>
-    <script>
-      function clickinner(btn){
-        this.props.location.href = `404.js`
-      }
+    <div class="btn"><Link to="/404.js">about</Link></div>
 
-    </script>
   </Layout>
 
 )
