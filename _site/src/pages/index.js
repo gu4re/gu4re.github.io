@@ -20,17 +20,18 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <button type="button" id="btn" onclick="clickevent()">about</button>
+    <div class="btn" onClick="javascript:clickinner(this);">about</div>
     <script>
-
-      function clickevent() {
-        location.href = '404.js'
+      function clickinner(btn){
+        location.href = `404.js`
       }
 
     </script>
   </Layout>
 
 )
+
+
 
 // Please press <b>Enter</b> to continue...
 // LO MEJOR ES PONER LA MANZANA COMO FOTO CUSTOM, LUEGO UN TREE Y LISTO Y QUE PINCHE
