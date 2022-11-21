@@ -20,7 +20,14 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <button type="button" id="btn" onclick="sampleClick()">about</button>
+    <button type="button" id="btn" onclick="clickevent()">about</button>
+    <script>
+
+      function clickevent() {
+        location.href = '404.js'
+      }
+
+    </script>
   </Layout>
 
 )
