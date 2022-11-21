@@ -13,6 +13,12 @@ module.exports = {
     author: `@gu4re`,
     siteUrl: `https://github.com/gu4re`,
   },
+
+  flags: {
+    FAST_DEV: true,
+    DEV_SSR: true,
+  },
+
   plugins: [
     `gatsby-plugin-image`,
     {
