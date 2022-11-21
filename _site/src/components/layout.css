@@ -44,17 +44,17 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
-  background-repeat: no-repeat;
 
-  background-image: url("../images/background.png");
 
-  -moz-background-size: 100% 100%;
+  background-image: url("../images/background.png") no-repeat center center fixed;
+
+  -moz-background-size: contain;
   /* Gecko 1.9.2 (Firefox 3.6) */
-  -o-background-size: 100% 100%;
+  -o-background-size: contain;
   /* Opera 9.5 */
-  -webkit-background-size: 100% 100%;
+  -webkit-background-size: contain;
   /* Safari 3.0 */
-  background-size: 100% 100%;
+  background-size: contain;
   /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
 
   -moz-border-image: url("../images/background.png") 0;
