@@ -60,6 +60,10 @@ body {
 .btn {
   text-align: left;
   font-family: "Hack Nerd Font";
+  position: relative;
+  left: 80px;
+  top: 400px;
+  bottom: auto;
 
 }
 
