@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <Link
-      to="/"
+      to="https://github.com/gu4re"
       style={{
         fontSize: `var(--font-sm)`,
         textDecoration: `none`,
