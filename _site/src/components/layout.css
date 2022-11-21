@@ -47,14 +47,23 @@ body {
   word-wrap: break-word;
 
   background-image: url("../images/background.png");
-  background-size: cover;
 
-  overflow-y: hidden;
+  -moz-background-size: 100% 100%;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: 100% 100%;
+  /* Opera 9.5 */
+  -webkit-background-size: 100% 100%;
+  /* Safari 3.0 */
+  background-size: 100% 100%;
+  /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+
+  -moz-border-image: url("../images/background.png") 0;
+  /* Gecko 1.9.1 (Firefox 3.5) */
+
+  /*overflow-y: auto;
   overflow: hidden;
-  overflow-x: hidden;
+  overflow-x: hidden;*/
 
-  max-width: 100vw;
-  max-height: 100vh;
 }
 
 .btn1 {
