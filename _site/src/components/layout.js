@@ -24,12 +24,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || <b>`GitHub`</b>} />
+      <Header siteTitle={data.site.siteMetadata?.title || <b>GitHub</b>} />
       <div
         style={{
           margin: `0 auto`,
           maxWidth: `var(--size-content)`,
           padding: `var(--size-gutter)`,
+          siteUrl: `https://github.com/gu4re`,
         }}
       >
         <main>{children}</main>
