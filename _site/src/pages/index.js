@@ -23,7 +23,7 @@ const IndexPage = () => (
     <div class="btn" onClick="javascript:clickinner(this);">about</div>
     <script>
       function clickinner(btn){
-        location.href = `404.js`
+        this.props.location.href = `404.js`
       }
 
     </script>
