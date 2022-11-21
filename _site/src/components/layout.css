@@ -45,16 +45,16 @@ body {
   margin: 0;
   word-wrap: break-word;
 
+  background-repeat: no-repeat;
+  background-image: url("../images/background.png");
 
-  background-image: url("../images/background.png") no-repeat center center fixed;
-
-  -moz-background-size: contain;
+  -moz-background-size: 100% 600%;
   /* Gecko 1.9.2 (Firefox 3.6) */
-  -o-background-size: contain;
+  -o-background-size: 100% 600%;
   /* Opera 9.5 */
-  -webkit-background-size: contain;
+  -webkit-background-size: 100% 600%;
   /* Safari 3.0 */
-  background-size: contain;
+  background-size: 100% 600%;
   /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
 
   -moz-border-image: url("../images/background.png") 0;
