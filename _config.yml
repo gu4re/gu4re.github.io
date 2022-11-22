@@ -10,8 +10,8 @@ header_pages:
   - about.md
 
 # Build settings
-style: dark
-listen_for_clients_preferred_style: true
+style: hacker
+listen_for_clients_preferred_style: false
 markdown: kramdown
 remote_theme: b2a3e8/jekyll-theme-console
 plugins:
