@@ -29,7 +29,7 @@ url: "https://gu4re.github.io" # the base hostname & protocol for your site, e.g
 domain: gu4re.github.io
 github_username:  gu4re
 
-# Build settings
+# Build settings 
 theme: jekyll-theme-potato-hacker
 plugins:
   - jekyll-feed
