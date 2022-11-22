@@ -11,7 +11,7 @@ github_username:  gu4re
 
 # Build settings 
 markdown: kramdown
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+remote_theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
