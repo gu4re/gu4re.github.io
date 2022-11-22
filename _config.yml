@@ -30,7 +30,7 @@ domain: gu4re.github.io
 github_username:  gu4re
 
 # Build settings
-remote-theme: luxedo/jekyll-theme-potato-hacker
+theme: jekyll-theme-potato-hacker
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
