@@ -30,10 +30,11 @@ domain: gu4re.github.io
 github_username:  gu4re
 
 # Build settings 
-theme: jekyll-theme-potato-hacker
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
