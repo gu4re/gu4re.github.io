@@ -11,7 +11,7 @@ github_username:  gu4re
 
 # Build settings 
 markdown: kramdown
-theme: jekyll-theme-potato-hacker
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
