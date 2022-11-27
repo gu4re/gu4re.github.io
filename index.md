@@ -1,5 +1,5 @@
 ---
-title: Home | Gu4re
+title: Home
 ---
 
 ```py
@@ -60,10 +60,7 @@ import Clojure
 
 ```py
             import Python
-````
-
-```py
-            print("visit my GitHub"); # Python
+            print("visit my GitHub on the footer") # Python
 ````
 
 ```py
