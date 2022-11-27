@@ -47,7 +47,7 @@ import Clojure
 ````
 
 ```bash
-                    echo "Also ..." # Bash
+                    echo "...Also" # Bash
 ````
 
 ```py
@@ -63,7 +63,6 @@ import Clojure
 ````
 
 ```py
-
             print("visit my GitHub"); # Python
 ````
 
