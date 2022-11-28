@@ -1,6 +1,6 @@
 ---
 #layout: post
-title:  "Automatic Schedule for your Daily Life! - Zsh/bash"
+title:  "Protect yourself on Internet - Firefox"
 date:   2022-11-27 00:31:48 +0100
 ---
 

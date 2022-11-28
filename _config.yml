@@ -8,6 +8,7 @@ github_username:  gu4re
 header_pages:
   - index.md
   - whoami.md
+  - contact.md
 
 # Build settings
 style: hacker

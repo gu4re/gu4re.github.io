@@ -60,7 +60,7 @@ import Clojure
 
 ```py
             import Python
-            print("visit my GitHub on the footer") # Python
+            print("visit my GitHub on the contact's footer") # Python
 ````
 
 ```py
