@@ -1,11 +1,19 @@
 ---
-title: Whoami
-permalink: /whoami/
+title: GitHub
+permalink: /github/
 ---
-# WHO AM I?
 
-<font color="#60D1D3">'\n'</font>
-
-<p>I'm a <font color="#E1A03B"><b>computer engineering student</b></font> lover of all the branches of computer science
-that the Internet world can offer today at <a href="https://urjc.es"><font color="#AC8BF8"><b>Universidad Rey Juan Carlos.</b></font></a>
-Specially interested in bash shell usage. In continous stage of learning..📚</p>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1; url=https://github.com/gu4re">
+        <script type="text/javascript">
+            window.location.href = "https://github.com/gu4re"
+        </script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        <!-- Redirection to the GitHub Repository. -->
+        If you are not redirected automatically, follow this <a href='https://github.com/gu4re'><font color="#AC8BF8">link</font></a>.
+    </body>
+</html>
