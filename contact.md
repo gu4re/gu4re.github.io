@@ -14,8 +14,8 @@ if (this == "Contact"){ // CONTACT EMAIL
 }
 
 ```java
-else { // GITHUB PROFILE
+else { // DISCORD PROFILE
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;<font color="#AC8BF8">this</font>.GitHub = [<font color="#E1A03B">"ER4UG.reverse"</font>](https://github.com/gu4re)
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#AC8BF8">this</font>.Discord = [<font color="#E1A03B">"Guareツ#0494"</font>](https://discordapp.com/users/404208733070163968)
 }
