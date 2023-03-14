@@ -7,7 +7,7 @@ import Clojure
 ````
 
 ```clojure
-(println "Hi") ;; Clojure
+(println "Hi!") ;; Clojure
 ````
 
 ```py
@@ -15,7 +15,7 @@ import Clojure
 ````
 
 ```java
-    system.out.println("Feel free"); // Java
+    System.out.println("Feel free"); // Java
 ````
 
 ```py
@@ -68,7 +68,7 @@ import Clojure
 ````
 
 ```java
-        system.out.println("for more"); // Java
+        System.out.println("for more"); // Java
 ````
 
 ```py
